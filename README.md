@@ -4,6 +4,10 @@
 
 1ページ完結のランディングページです。ビルドツール不要で、そのまま公開できます。
 
+- **公開URL**: https://dot-jp-opsteam.github.io/social-action-marche/
+- **リポジトリ**: https://github.com/dot-jp-opsteam/social-action-marche
+- `main` ブランチにpushすると、1〜2分で自動的に公開サイトへ反映されます
+
 ## ファイル構成
 
 ```
