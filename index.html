@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Action Marche｜「私もできる」を見つける1日 — 2026.8.9(日) 潮風公園</title>
+  <meta name="description" content="Social Action Marcheは、社会課題に取り組む学生団体・社会活動家・政治家が集まるマルシェ型イベント。2026年8月9日(日)10:00〜17:00、潮風公園（東京・お台場）で開催。楽しそうだから来た→気づいたら学んでた！を体験しよう。">
+
+  <!-- OGP（画像が用意できたら og:image を追加してください） -->
+  <meta property="og:title" content="Social Action Marche｜「私もできる」を見つける1日">
+  <meta property="og:description" content="2026.8.9(日) 潮風公園で開催！社会課題を1日で「知って、学んで、交流して、発信する」マルシェ型イベント。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <!-- <meta property="og:image" content="ogp.png"> -->
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎪</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Zen+Maru+Gothic:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============================================================
+  ▼▼▼ 更新ガイド ▼▼▼
+  ・申込みフォームURL … js/config.js の formUrl にURLを貼るだけでOK
+  ・登壇者の追加     … 「SPEAKERS」セクション内のカードをコピー
+  ・出店団体の追加   … 「BOOTHS」セクション内のカードをコピー
+  ・キッチンカー     … 「KITCHEN」セクションのコメント参照
+  各所にある「▼編集:」の目印コメントを探してください。
+============================================================ -->
+
+<!-- ヘッダー -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="#top" class="header__logo">
+      <span class="header__logo-mark">🎪</span>
+      <span class="header__logo-text">Social Action <em>Marche</em></span>
+    </a>
+    <nav class="header__nav" id="globalNav">
+      <a href="#features">できること</a>
+      <a href="#booths">出店ブース</a>
+      <a href="#experience">体験コンテンツ</a>
+      <a href="#speakers">登壇者</a>
+      <a href="#info">開催概要</a>
+      <a href="#contact">お問い合わせ</a>
+      <a href="#final-cta" class="btn btn--small btn--primary header__cta">参加申込み</a>
+    </nav>
+    <button class="header__burger" id="burger" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ 1. ファーストビュー ============ -->
+  <section class="hero">
+    <!-- ガーランド（旗飾り） -->
+    <div class="hero__bunting" aria-hidden="true">
+      <svg viewBox="0 0 1200 90" preserveAspectRatio="none">
+        <path d="M0,14 Q300,72 600,40 T1200,18" fill="none" stroke="#C9A227" stroke-width="3" stroke-linecap="round"/>
+        <g>
+          <polygon points="60,22 90,26 75,62" fill="#F97B3D"/>
+          <polygon points="150,33 180,36 165,72" fill="#45B8D8"/>
+          <polygon points="240,42 270,44 255,80" fill="#FFC53D"/>
+          <polygon points="330,48 360,49 345,85" fill="#58B368"/>
+          <polygon points="420,50 450,50 435,86" fill="#F97B3D"/>
+          <polygon points="510,48 540,47 525,83" fill="#F2A0B5"/>
+          <polygon points="600,44 630,42 615,78" fill="#45B8D8"/>
+          <polygon points="690,39 720,37 705,73" fill="#FFC53D"/>
+          <polygon points="780,34 810,32 795,68" fill="#58B368"/>
+          <polygon points="870,30 900,28 885,64" fill="#F97B3D"/>
+          <polygon points="960,26 990,24 975,60" fill="#45B8D8"/>
+          <polygon points="1050,23 1080,21 1065,57" fill="#FFC53D"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="hero__inner">
+      <p class="hero__date-badge reveal">
+        <span class="hero__date-main">2026<span class="hero__date-dot">.</span>8<span class="hero__date-dot">.</span>9</span>
+        <span class="hero__date-sub">SUN 10:00 - 17:00</span>
+      </p>
+
+      <h1 class="hero__title reveal">
+        <span class="hero__title-en">
+          <span class="c-orange">S</span>ocial <span class="c-blue">A</span>ction<br class="sp-only">
+          <span class="c-green">M</span>arche
+        </span>
+        <span class="hero__title-ja">「私もできる」を見つける1日</span>
+      </h1>
+
+      <p class="hero__lead reveal">
+        社会のこと、ちょっと気になるあなたへ。<br class="pc-only">
+        マルシェみたいに気軽にのぞける、参加型の社会参加イベントです。
+      </p>
+
+      <p class="hero__place reveal">
+        <span class="hero__place-pin">📍</span> 潮風公園（東京・お台場）／入退場自由
+      </p>
+
+      <div class="hero__cta reveal">
+        <!-- ▼編集: フォームURLは js/config.js で設定 -->
+        <a class="btn btn--primary btn--large js-form-cta" role="button" aria-disabled="true" tabindex="-1">
+          <span class="btn__spark">✦</span>
+          申込みフォーム Coming Soon
+          <span class="btn__spark">✦</span>
+        </a>
+        <p class="hero__cta-note">フォーム公開までもう少し！最新情報は <a href="https://www.instagram.com/youth_action_lab?igsh=MTFpdHRlcmdxcnAwMQ%3D%3D&utm_source=qr" target="_blank" rel="noopener">Instagram</a> でお知らせします</p>
+      </div>
+
+      <p class="hero__countdown reveal" id="countdown" hidden>
+        開催まであと <strong id="countdownDays">--</strong> 日！
+      </p>
+    </div>
+
+    <!-- マルシェのテントのイラスト -->
+    <div class="hero__scene" aria-hidden="true">
+      <svg viewBox="0 0 900 250" preserveAspectRatio="xMidYMax meet">
+        <!-- 太陽 -->
+        <circle cx="120" cy="60" r="46" fill="#FFE08A" opacity=".55"/>
+        <circle cx="120" cy="60" r="30" fill="#FFC53D"/>
+        <!-- 雲 -->
+        <g fill="#FFFFFF" opacity=".9">
+          <ellipse cx="700" cy="50" rx="46" ry="18"/>
+          <ellipse cx="738" cy="42" rx="30" ry="14"/>
+          <ellipse cx="300" cy="38" rx="38" ry="14"/>
+        </g>
+        <!-- 風船 -->
+        <g>
+          <path d="M210,160 q6,30 -2,52" stroke="#B98A5E" stroke-width="2" fill="none"/>
+          <ellipse cx="210" cy="145" rx="17" ry="21" fill="#F2A0B5"/>
+          <path d="M690,150 q-6,32 2,60" stroke="#B98A5E" stroke-width="2" fill="none"/>
+          <ellipse cx="690" cy="135" rx="17" ry="21" fill="#45B8D8"/>
+          <path d="M760,175 q4,22 -2,40" stroke="#B98A5E" stroke-width="2" fill="none"/>
+          <ellipse cx="760" cy="162" rx="13" ry="16" fill="#FFC53D"/>
+        </g>
+        <!-- 地面 -->
+        <ellipse cx="450" cy="285" rx="560" ry="60" fill="#BFE3B4"/>
+        <!-- テント（左・水色） -->
+        <g transform="translate(255,120)">
+          <path d="M55,-16 l0,16" stroke="#3D9DBC" stroke-width="3"/>
+          <polygon points="55,-16 78,-8 55,0" fill="#F97B3D"/>
+          <polygon points="55,0 110,64 0,64" fill="#45B8D8"/>
+          <polygon points="30,35 44,35 30,64 16,64" fill="#FFF7EA"/>
+          <polygon points="66,35 80,35 94,64 80,64" fill="#FFF7EA"/>
+          <rect x="14" y="64" width="82" height="46" fill="#FFF4E0"/>
+          <rect x="14" y="64" width="82" height="10" fill="#E8D9BF"/>
+          <rect x="28" y="84" width="54" height="26" rx="4" fill="#45B8D8" opacity=".25"/>
+        </g>
+        <!-- テント（中央・オレンジ / 大） -->
+        <g transform="translate(385,92)">
+          <path d="M65,-18 l0,18" stroke="#C75B23" stroke-width="3"/>
+          <polygon points="65,-18 92,-9 65,0" fill="#FFC53D"/>
+          <polygon points="65,0 130,76 0,76" fill="#F97B3D"/>
+          <polygon points="34,42 50,42 34,76 18,76" fill="#FFF7EA"/>
+          <polygon points="80,42 96,42 112,76 96,76" fill="#FFF7EA"/>
+          <rect x="16" y="76" width="98" height="54" fill="#FFF4E0"/>
+          <rect x="16" y="76" width="98" height="11" fill="#E8D9BF"/>
+          <rect x="32" y="99" width="66" height="31" rx="4" fill="#F97B3D" opacity=".25"/>
+        </g>
+        <!-- テント（右・グリーン） -->
+        <g transform="translate(545,120)">
+          <path d="M55,-16 l0,16" stroke="#3F8A4C" stroke-width="3"/>
+          <polygon points="55,-16 78,-8 55,0" fill="#F2A0B5"/>
+          <polygon points="55,0 110,64 0,64" fill="#58B368"/>
+          <polygon points="30,35 44,35 30,64 16,64" fill="#FFF7EA"/>
+          <polygon points="66,35 80,35 94,64 80,64" fill="#FFF7EA"/>
+          <rect x="14" y="64" width="82" height="46" fill="#FFF4E0"/>
+          <rect x="14" y="64" width="82" height="10" fill="#E8D9BF"/>
+          <rect x="28" y="84" width="54" height="26" rx="4" fill="#58B368" opacity=".25"/>
+        </g>
+        <!-- 紙吹雪 -->
+        <g>
+          <circle cx="180" cy="120" r="5" fill="#FFC53D"/>
+          <circle cx="330" cy="60" r="4" fill="#F2A0B5"/>
+          <circle cx="520" cy="45" r="5" fill="#58B368"/>
+          <circle cx="620" cy="90" r="4" fill="#F97B3D"/>
+          <circle cx="800" cy="120" r="5" fill="#45B8D8"/>
+          <rect x="250" y="80" width="9" height="9" rx="2" fill="#45B8D8" transform="rotate(20 254 84)"/>
+          <rect x="450" y="40" width="9" height="9" rx="2" fill="#F97B3D" transform="rotate(-15 454 44)"/>
+          <rect x="730" y="70" width="9" height="9" rx="2" fill="#FFC53D" transform="rotate(30 734 74)"/>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ============ 2. イベントコンセプト ============ -->
+  <section class="section section--cream" id="concept">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="section__label c-orange">CONCEPT</p>
+        <h2 class="section__title">このイベントの合言葉</h2>
+      </div>
+
+      <div class="concept__catch reveal">
+        <p class="concept__phrase">
+          <span class="concept__phrase-item concept__phrase-item--start">楽しそうだから<br class="sp-only">来た</span>
+          <span class="concept__arrow">→</span>
+          <span class="concept__phrase-item concept__phrase-item--goal">気づいたら<br class="sp-only">学んでた！</span>
+        </p>
+      </div>
+
+      <p class="concept__text reveal">
+        Social Action Marcheは、社会課題に取り組む<strong>学生団体・社会活動家・政治家</strong>が一堂に集まるマルシェ型イベント。<br>
+        むずかしい話はいったんぬきにして、まずはお祭り気分でふらっと立ち寄ってみてください。<br>
+        ブースをまわって、話して、遊んでいるうちに——<br>
+        社会のことが、ちょっとだけ<strong class="marker">「自分ごと」</strong>になっているはずです。
+      </p>
+
+      <ul class="concept__points reveal">
+        <li><span>🙆</span>予備知識ゼロでOK</li>
+        <li><span>🕐</span>出入り自由・立ち寄るだけでも大歓迎</li>
+        <li><span>🌱</span>1日で「知る・学ぶ・交流する・発信する」</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 3. できること ============ -->
+  <section class="section" id="features">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="section__label c-blue">WHAT YOU CAN DO</p>
+        <h2 class="section__title">Social Action Marcheで<br class="sp-only">できること</h2>
+      </div>
+
+      <div class="cards cards--4">
+        <div class="card feature-card reveal">
+          <div class="feature-card__icon feature-card__icon--orange">🔍</div>
+          <h3 class="feature-card__title"><span class="feature-card__num c-orange">01</span>知る</h3>
+          <p class="feature-card__text">社会課題に取り組む団体のブースをめぐって、リアルな現場の話にふれよう。「そんな課題があったんだ！」がきっと見つかる。</p>
+        </div>
+        <div class="card feature-card reveal">
+          <div class="feature-card__icon feature-card__icon--yellow">💡</div>
+          <h3 class="feature-card__title"><span class="feature-card__num c-yellow">02</span>学ぶ</h3>
+          <p class="feature-card__text">クイズや体験型ミニワークで、遊びながら学べる。むずかしいお勉強はナシ。楽しんでいたら、それがもう学び。</p>
+        </div>
+        <div class="card feature-card reveal">
+          <div class="feature-card__icon feature-card__icon--blue">🤝</div>
+          <h3 class="feature-card__title"><span class="feature-card__num c-blue">03</span>交流する</h3>
+          <p class="feature-card__text">学生団体・社会活動家・政治家と、フラットにおしゃべり。会ってみると、意外と身近な存在かも。</p>
+        </div>
+        <div class="card feature-card reveal">
+          <div class="feature-card__icon feature-card__icon--green">📣</div>
+          <h3 class="feature-card__title"><span class="feature-card__num c-green">04</span>発信する</h3>
+          <p class="feature-card__text">感じたことをSNSでシェアしよう。あなたのひとことが、誰かの「はじめの一歩」につながる。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. 出店ブース紹介 ============ -->
+  <section class="section section--blue-tint" id="booths">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="section__label c-green">BOOTHS</p>
+        <h2 class="section__title">出店ブース</h2>
+        <p class="section__desc">社会課題に取り組む団体が、活動紹介や体験型コンテンツを出展。<br class="pc-only">ブースをめぐるだけで、いろんな社会課題に出会えます。</p>
+      </div>
+
+      <!-- ▼編集: 出店団体を追加するときは下の .booth-card をコピーしてください
+           紹介文は仮のものです。公開前に各団体へ内容確認をおすすめします。 -->
+      <div class="cards cards--2">
+        <div class="card booth-card reveal">
+          <div class="booth-card__head">
+            <span class="booth-card__avatar booth-card__avatar--orange">D</span>
+            <h3 class="booth-card__name">NPO法人ドットジェイピー</h3>
+          </div>
+          <p class="booth-card__text">「若者の社会参画」と「若年投票率の向上」を目指して活動するNPO法人。議員事務所などでのインターンシッププログラムを全国で展開しています。</p>
+          <div class="booth-card__tags"><span>#若者の社会参画</span><span>#投票率向上</span></div>
+        </div>
+        <div class="card booth-card reveal">
+          <div class="booth-card__head">
+            <span class="booth-card__avatar booth-card__avatar--blue">K</span>
+            <h3 class="booth-card__name">キッズドア</h3>
+          </div>
+          <p class="booth-card__text">すべての子どもが夢と希望を持てる社会を目指して、子どもの教育支援に取り組む団体。ブースで活動のリアルにふれてみよう。</p>
+          <div class="booth-card__tags"><span>#子ども支援</span><span>#教育</span></div>
+        </div>
+        <div class="card booth-card reveal">
+          <div class="booth-card__head">
+            <span class="booth-card__avatar booth-card__avatar--green">Y</span>
+            <h3 class="booth-card__name">#YourChoiceProject</h3>
+          </div>
+          <p class="booth-card__text">若者の進路選択をめぐる格差やジェンダーギャップに向き合う団体。「選択肢って、こんなに広いんだ」と気づけるブースに。</p>
+          <div class="booth-card__tags"><span>#進路選択</span><span>#ジェンダー</span></div>
+        </div>
+        <div class="card booth-card booth-card--soon reveal">
+          <div class="booth-card__head">
+            <span class="booth-card__avatar booth-card__avatar--yellow">✦</span>
+            <h3 class="booth-card__name">Coming Soon…</h3>
+          </div>
+          <p class="booth-card__text">出店団体は続々決定中！新しい仲間が決まりしだい、ここでお知らせします。おたのしみに。</p>
+          <div class="booth-card__tags"><span>#続々追加予定</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5. 体験コンテンツ ============ -->
+  <section class="section" id="experience">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="section__label c-orange">EXPERIENCE</p>
+        <h2 class="section__title">あそびながら学べる<br class="sp-only">しかけ、たくさん。</h2>
+        <p class="section__desc">ただ見てまわるだけじゃない。手を動かして、集めて、当てて、楽しむ1日に。</p>
+      </div>
+
+      <!-- 社会参加パスポート -->
+      <div class="passport reveal">
+        <div class="passport__visual" aria-hidden="true">
+          <div class="passport__book">
+            <p class="passport__book-label">SOCIAL ACTION<br>PASSPORT</p>
+            <p class="passport__book-sub">社会参加パスポート</p>
+            <div class="passport__stamps">
+              <span class="passport__stamp passport__stamp--on">✓</span>
+              <span class="passport__stamp passport__stamp--on">✓</span>
+              <span class="passport__stamp passport__stamp--on">✓</span>
+              <span class="passport__stamp"></span>
+              <span class="passport__stamp"></span>
+              <span class="passport__stamp"></span>
+            </div>
+          </div>
+        </div>
+        <div class="passport__body">
+          <h3 class="passport__title">🎫 社会参加パスポートを持って、<br class="pc-only">スタンプラリーへ出発！</h3>
+          <ol class="passport__steps">
+            <li><span class="passport__step-num">1</span>受付で「社会参加パスポート」をGET</li>
+            <li><span class="passport__step-num">2</span>気になるブースをめぐってスタンプを集める</li>
+            <li><span class="passport__step-num">3</span>各ブースのクイズ&amp;ミニワークにチャレンジ</li>
+            <li><span class="passport__step-num">4</span>全ブース制覇で、抽選&amp;SNS投稿企画に参加できる特典が！</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="cards cards--3">
+        <div class="card exp-card reveal">
+          <div class="exp-card__emoji">🎯</div>
+          <h3 class="exp-card__title">クイズラリー</h3>
+          <p class="exp-card__text">各ブースで出題されるクイズに挑戦。「え、そうなの!?」な発見がいっぱい。</p>
+        </div>
+        <div class="card exp-card reveal">
+          <div class="exp-card__emoji">✂️</div>
+          <h3 class="exp-card__title">体験型ミニワーク</h3>
+          <p class="exp-card__text">見るだけじゃなく、やってみる。手を動かすと、社会課題がぐっと近くなる。</p>
+        </div>
+        <div class="card exp-card reveal">
+          <div class="exp-card__emoji">🎁</div>
+          <h3 class="exp-card__title">抽選 &amp; SNS投稿企画</h3>
+          <p class="exp-card__text">スタンプを集めきった人だけのお楽しみ。参加して、シェアして、当てちゃおう。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. 登壇者紹介 ============ -->
+  <section class="section section--cream" id="speakers">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="section__label c-blue">SPEAKERS</p>
+        <h2 class="section__title">登壇者</h2>
+        <p class="section__desc">社会の最前線で活動する人たちの話を、すぐそばで。</p>
+      </div>
+
+      <h3 class="speakers__group-title reveal"><span class="speakers__group-badge speakers__group-badge--green">社会活動家</span></h3>
+      <!-- ▼編集: 登壇者を追加するときは下の .speaker-card をコピーしてください
+           写真が用意できたら .speaker-card__face を <img> に差し替え -->
+      <div class="cards cards--3">
+        <div class="card speaker-card reveal">
+          <div class="speaker-card__face speaker-card__face--green" aria-hidden="true">
+            <svg viewBox="0 0 80 80"><circle cx="40" cy="30" r="14" fill="currentColor"/><path d="M14,74 a26,26 0 0,1 52,0 Z" fill="currentColor"/></svg>
+          </div>
+          <p class="speaker-card__name">木家 大河</p>
+          <p class="speaker-card__role">社会活動家</p>
+        </div>
+        <div class="card speaker-card reveal">
+          <div class="speaker-card__face speaker-card__face--blue" aria-hidden="true">
+            <svg viewBox="0 0 80 80"><circle cx="40" cy="30" r="14" fill="currentColor"/><path d="M14,74 a26,26 0 0,1 52,0 Z" fill="currentColor"/></svg>
+          </div>
+          <p class="speaker-card__name">黒岩 大輝</p>
+          <p class="speaker-card__role">社会活動家</p>
+        </div>
+        <div class="card speaker-card speaker-card--soon reveal">
+          <div class="speaker-card__face speaker-card__face--yellow" aria-hidden="true"><span>✦</span></div>
+          <p class="speaker-card__name">Coming Soon…</p>
+          <p class="speaker-card__role">続々発表予定！</p>
+        </div>
+      </div>
+
+      <h3 class="speakers__group-title reveal"><span class="speakers__group-badge speakers__group-badge--orange">政治家</span></h3>
+      <div class="cards cards--1">
+        <div class="card speaker-card speaker-card--soon speaker-card--wide reveal">
+          <div class="speaker-card__face speaker-card__face--orange" aria-hidden="true"><span>✦</span></div>
+          <div>
+            <p class="speaker-card__name">Coming Soon…</p>
+            <p class="speaker-card__role">現在調整中！発表までおたのしみに。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 7. キッチンカー ============ -->
+  <section class="section" id="kitchen">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="section__label c-yellow">KITCHEN CAR</p>
+        <h2 class="section__title">キッチンカー</h2>
+      </div>
+
+      <!-- ▼編集: キッチンカーが決まったら、この .kitchen-soon を
+           出店ブースと同じカード形式（.cards--3 など）に差し替えてください -->
+      <div class="kitchen-soon reveal">
+        <div class="kitchen-soon__truck" aria-hidden="true">
+          <svg viewBox="0 0 220 120">
+            <rect x="10" y="30" width="130" height="60" rx="10" fill="#F97B3D"/>
+            <rect x="30" y="42" width="70" height="30" rx="5" fill="#FFF7EA"/>
+            <text x="65" y="63" text-anchor="middle" font-size="14" fill="#F97B3D" font-family="sans-serif" font-weight="bold">FOOD</text>
+            <path d="M140,45 h34 a10,10 0 0 1 8,5 l12,20 v20 h-54 Z" fill="#FFC53D"/>
+            <rect x="150" y="52" width="24" height="18" rx="4" fill="#CDEFF9"/>
+            <circle cx="50" cy="95" r="14" fill="#4A4238"/><circle cx="50" cy="95" r="6" fill="#FFF7EA"/>
+            <circle cx="165" cy="95" r="14" fill="#4A4238"/><circle cx="165" cy="95" r="6" fill="#FFF7EA"/>
+            <path d="M10,30 q20,-18 60,-12" stroke="#58B368" stroke-width="0" fill="none"/>
+            <g fill="#FFF7EA"><circle cx="120" cy="20" r="4"/><circle cx="130" cy="12" r="5"/><circle cx="143" cy="6" r="6"/></g>
+          </svg>
+        </div>
+        <p class="kitchen-soon__title">おいしいキッチンカーも登場予定！</p>
+        <p class="kitchen-soon__text">Coming Soon… ラインナップは決まりしだい発表します。<br>マルシェのおともに、おいしいものを片手にどうぞ。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 8. 開催概要・アクセス ============ -->
+  <section class="section section--blue-tint" id="info">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="section__label c-blue">INFORMATION</p>
+        <h2 class="section__title">開催概要</h2>
+      </div>
+
+      <div class="info-table reveal">
+        <dl>
+          <div class="info-table__row">
+            <dt>イベント名</dt>
+            <dd>Social Action Marche<br><span class="info-table__small">「私もできる」を見つける1日</span></dd>
+          </div>
+          <div class="info-table__row">
+            <dt>開催日時</dt>
+            <dd><strong>2026年8月9日（日）10:00〜17:00</strong><br><span class="info-table__small">出入り自由</span></dd>
+          </div>
+          <div class="info-table__row">
+            <dt>会場</dt>
+            <dd>潮風公園<br><span class="info-table__small">〒135-0092 東京都品川区東八潮1</span></dd>
+          </div>
+          <div class="info-table__row">
+            <dt>主催</dt>
+            <dd>NPO法人ドットジェイピー</dd>
+          </div>
+        </dl>
+      </div>
+
+      <h3 class="info__sub-title reveal">🚃 アクセス</h3>
+      <div class="access reveal">
+        <div class="access__col">
+          <h4 class="access__head access__head--train">電車でお越しの方</h4>
+          <ul class="access__list">
+            <li><span class="access__line access__line--yurikamome">ゆりかもめ</span>「台場」駅から <strong>徒歩5分</strong></li>
+            <li><span class="access__line access__line--yurikamome">ゆりかもめ</span>「東京国際クルーズターミナル」駅から <strong>徒歩5分</strong></li>
+            <li><span class="access__line access__line--rinkai">りんかい線</span>「東京テレポート」駅から <strong>徒歩12分</strong></li>
+          </ul>
+        </div>
+        <div class="access__col">
+          <h4 class="access__head access__head--bus">都営バスでお越しの方</h4>
+          <ul class="access__list">
+            <li>「門前仲町」から 豊洲駅前経由・<strong>東京テレポート駅行き</strong> 約32分</li>
+            <li>「台場駅前」「東京国際クルーズターミナル駅前」下車 徒歩5分</li>
+          </ul>
+          <p class="access__warn">⚠️「有明一丁目」行きは目的地まで運行しません。ご注意ください。</p>
+        </div>
+      </div>
+
+      <div class="map reveal">
+        <iframe
+          src="https://maps.google.com/maps?q=%E6%BD%AE%E9%A2%A8%E5%85%AC%E5%9C%92%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%93%81%E5%B7%9D%E5%8C%BA&z=15&output=embed"
+          loading="lazy" title="潮風公園の地図" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="notice reveal">
+        <h3 class="notice__title">☀️ 熱中症対策のお願い</h3>
+        <ul class="notice__list">
+          <li>会場は屋外です。こまめな水分補給をお願いします</li>
+          <li>帽子・日傘・タオルなどの持参をおすすめします</li>
+          <li>体調がすぐれない場合は、無理をせずお近くのスタッフにお声がけください</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 9. 主催団体紹介 ============ -->
+  <section class="section" id="organizer">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="section__label c-green">ORGANIZER</p>
+        <h2 class="section__title">主催団体</h2>
+      </div>
+
+      <div class="organizer reveal">
+        <h3 class="organizer__name">NPO法人ドットジェイピー</h3>
+        <p class="organizer__meta">本部：東京都千代田区 ／ 理事長：佐藤 大吾</p>
+        <p class="organizer__text">
+          NPO法人ドットジェイピーは、1998年創業のNPO法人です。全国35拠点にエリア展開し、大学生約550人が中心となって、「若者の社会参画」と「若年投票率の向上」を目的に、社会教育の推進を図る活動と情報化社会の発展を図る活動を行っています。<br>
+          累計47,722人が参加した「ソーシャルインターンシッププログラム」をはじめ、「未来国会」「未来自治体」など、若年層を対象とした政策立案コンテストを提供しています。
+        </p>
+
+        <div class="organizer__stats">
+          <div class="organizer__stat"><strong>1998</strong><span>年創業</span></div>
+          <div class="organizer__stat"><strong>35</strong><span>拠点（全国）</span></div>
+          <div class="organizer__stat"><strong>550</strong><span>人の大学生が活動</span></div>
+          <div class="organizer__stat"><strong>47,722</strong><span>人の累計参加者</span></div>
+        </div>
+
+        <ul class="organizer__links">
+          <li><a href="https://www.dot-jp.or.jp/" target="_blank" rel="noopener">ドットジェイピー公式サイト</a></li>
+          <li><a href="https://www.dot-jp.or.jp/social/" target="_blank" rel="noopener">ソーシャルインターンシッププログラム</a></li>
+          <li><a href="https://miraikokkai.com/" target="_blank" rel="noopener">未来国会</a></li>
+          <li><a href="https://www.dot-jp.or.jp/miraijichitai/" target="_blank" rel="noopener">未来自治体</a></li>
+          <li><a href="https://donation.yahoo.co.jp/detail/85001" target="_blank" rel="noopener">ドットジェイピーへの支援</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 10. お問い合わせ ============ -->
+  <section class="section section--cream" id="contact">
+    <div class="section__inner">
+      <div class="section__head reveal">
+        <p class="section__label c-orange">CONTACT</p>
+        <h2 class="section__title">お問い合わせ</h2>
+        <p class="section__desc">出店・取材・協賛のご相談も、お気軽にどうぞ。</p>
+      </div>
+
+      <div class="contact-card reveal">
+        <p class="contact-card__org">NPO法人ドットジェイピー マーケティングユニット</p>
+        <p class="contact-card__name">担当：松原 優恋</p>
+        <div class="contact-card__actions">
+          <a class="btn btn--outline" href="tel:08038807906">📞 080-3880-7906</a>
+          <a class="btn btn--outline" href="mailto:yuna_matsubara@dot-jp.or.jp">✉️ メールで問い合わせる</a>
+          <a class="btn btn--outline btn--insta" href="https://www.instagram.com/youth_action_lab?igsh=MTFpdHRlcmdxcnAwMQ%3D%3D&utm_source=qr" target="_blank" rel="noopener">📷 Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 11. 最終CTA ============ -->
+  <section class="final-cta" id="final-cta">
+    <div class="final-cta__inner reveal">
+      <p class="final-cta__lead">この夏、お台場で。</p>
+      <h2 class="final-cta__title">Social Action Marcheに<br class="sp-only">参加する</h2>
+      <p class="final-cta__date">2026.8.9 <span>SUN</span> 10:00-17:00 ＠潮風公園</p>
+      <!-- ▼編集: フォームURLは js/config.js で設定 -->
+      <a class="btn btn--white btn--large js-form-cta" role="button" aria-disabled="true" tabindex="-1">
+        <span class="btn__spark">✦</span>
+        申込みフォーム Coming Soon
+        <span class="btn__spark">✦</span>
+      </a>
+      <p class="final-cta__note">フォーム公開まで、<a href="https://www.instagram.com/youth_action_lab?igsh=MTFpdHRlcmdxcnAwMQ%3D%3D&utm_source=qr" target="_blank" rel="noopener">Instagram</a> のフォローでお待ちください🌻</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <p class="footer__logo">🎪 Social Action <em>Marche</em></p>
+    <p class="footer__copy">「私もできる」を見つける1日</p>
+    <p class="footer__credit">&copy; <span id="year">2026</span> NPO法人ドットジェイピー</p>
+  </div>
+</footer>
+
+<!-- スマホ用 追従CTAバー -->
+<div class="sticky-cta" id="stickyCta" aria-hidden="true">
+  <a class="btn btn--primary js-form-cta" role="button" aria-disabled="true" tabindex="-1">申込みフォーム Coming Soon ✦</a>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
